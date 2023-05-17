@@ -1,0 +1,24 @@
+.header{
+    padding:20px 0;
+}
+.header-inner{
+    display:flex;
+    justify-content:space-between;
+    .logo{
+        font-size:50px;
+        color:#000;
+        text-decoration:none;
+    }
+    .header-links{
+        display:flex;
+        list-style:none;
+        li{
+            padding:0 10px;
+            a{
+                display:inline-block;
+                text-decoration:none;
+                font-size:20px;;
+            }
+        }
+    }
+}
